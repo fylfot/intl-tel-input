@@ -981,8 +981,7 @@ class Iti {
       const selectedFlagWidth = this.selectedFlag.offsetWidth || this._getHiddenSelectedFlagWidth();
 
       // add 6px of padding after the grey selected-dial-code box, as this is what we use in the css
-      this.telInput.style.paddingLeft = `${selectedFlagWidth + 6}px`;
-      this.telInput.style.paddingRight = `${selectedFlagWidth + 6}px`;
+      this.telInput.style.textIndent = `${selectedFlagWidth + 6}px`;
     }
 
     // and the input's placeholder
